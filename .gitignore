@@ -1,0 +1,68 @@
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.log
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore build files (Frontend)
+frontend/node_modules/
+frontend/.next/
+frontend/.nuxt/
+frontend/.vercel/
+frontend/.turbo/
+frontend/dist/
+frontend/build/
+frontend/out/
+frontend/.vite/
+frontend/.parcel-cache/
+frontend/.cache/
+
+# Ignore build files (Backend)
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.next/
+backend/.nuxt/
+backend/.vercel/
+backend/.turbo/
+backend/.cache/
+
+# Ignore Editor/IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore database files (if using local database)
+*.sqlite
+*.sqlite3
+backend/dump.rdb
+backend/dump.rdb-journal
+backend/dump.aof
+
+# Ignore local test files
+coverage/
+jest/
+cypress/
+cypress/screenshots/
+cypress/videos/
